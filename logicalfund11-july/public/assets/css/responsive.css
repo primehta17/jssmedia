@@ -1,0 +1,991 @@
+/* responsive css */
+
+@media only screen and (max-width: 349px) {
+    .achievement-card-container {
+        width: 100% !important;
+        padding-top: 1rem !important;
+    }
+    .achievement-card {
+        background-size: 180px !important;
+    }
+    .achievement-card img {
+        padding-top: 25px !important;
+    }
+    .nav-logIn {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding: 5px 15px !important;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 499px) { 
+    .achievement-card {
+        padding-top: 1.5rem !important;
+        height: 155px !important;
+        background-size: 150px !important;
+    }
+    .achievement-card img {
+        padding-top: 20px !important;
+        width: 26px;
+    }
+    .achievement-card h4 {
+        margin-bottom: 0px !important;
+    }
+    .subscription-area {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) { 
+    .achievement-card {
+        padding-top: 1.5rem !important;
+        height: 155px !important;
+        background-size: 150px !important;
+    }
+    .achievement-card img {
+        padding-top: 15px !important;
+        width: 26px;
+    }
+    .subscription-area {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 575px) { 
+    .achievement-card-container {
+        width: 50% !important;
+        padding-top: 1.5rem;
+    }
+    .nav-logIn-section {
+        padding-left: 5% !important;
+    }
+    .nav-logIn {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding: 5px 15px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .thank-you-cantent {
+        padding-top: 2rem;
+    }
+    .thank-you-cantent h2 span { 
+        font-size: 50px !important;
+    }
+    .hamburger-menu label {
+        width: 25px !important;
+    }
+    .hamburger-menu ul { 
+        width: 80%;
+        right: 10% !important;
+    }
+    p {
+        font-size: 14px !important;
+    }
+    .navbar-brand img {
+        width: 150px !important;
+    }
+    .nav-logIn {
+        font-size: 15px !important;
+        font-weight: 500 !important; 
+        padding: 2px 5px !important;
+    }
+    .main-banner-area { 
+        padding-top: 35px;
+        padding-bottom: 100px;
+    }
+    .main-banner-section .banner-title p {
+        font-size: 16px !important;
+        line-height: 25px !important;
+        margin-bottom: 5px !important;
+    }
+    .banner-btn button { 
+        font-size: 16px;
+        line-height: 15px;
+        padding: 10px 10px;
+    }
+    .main-banner-section .banner-title h1 {
+        font-size: 35px !important;
+        font-weight: 600 !important;
+        line-height: 50px !important;
+        margin-bottom: 15px !important;
+    }
+    .main-banner-section .banner-img img {
+        display: none;
+    }
+    .section-content h4 {
+        font-size: 20px !important;
+    }
+    .main-banner-section .banner-btn {
+        padding-top: 1.2rem !important;
+    }
+    .achievement-section {
+        padding-top: 15px !important;
+    }
+    .achievement-card-section {
+        justify-content: center;
+    }
+    .client-ratings {
+        padding-top: 1rem;
+    }
+    .Single-banner-area {
+        padding-top: 25px !important;
+    }
+    .section-area {
+        padding-top: 25px;
+    }
+    .section-content h2 {
+        line-height: 50px !important;
+        margin-bottom: 15px !important;
+        font-size: 35px !important;
+    }
+    .Single-banner-content h1 {  
+        font-size: 35px !important;
+        font-weight: 600 !important;
+        margin-bottom: 15px !important;
+    }
+    .section-content2 h2 {
+        font-size: 35px !important;
+    }
+    .achievement-section .achievement-card-section {
+        width: 95%;
+    }
+    .achievement-card {
+        padding-top: 2rem;
+        height: 195px;
+        background-size: 205px;
+    }
+    .achievement-card h4 {
+        font-size: 18px !important;
+    }
+    .achievement-card img {
+        padding-top: 30px;
+    }
+    .section-content2 .learn-more-btn {
+        font-size: 18px;
+        padding: 5px 15px;
+        margin-bottom: 2rem;
+    }
+    .section-image-2 p {
+        margin-bottom: 0px;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .section-image-container-2 .section-image-2 img {
+        max-width: 100%;
+    }
+    .section-content2 {
+        text-align: center;
+    }
+    .section-content2 h2 {
+        text-align: center;
+    }
+    .section-area2 {
+        padding-top: 2rem;
+    }
+    .section-image-2 {
+        padding-bottom: 2rem;
+    }
+    .about-card-section {
+        padding-top: 3rem;
+    }
+    .researchImg {
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+    .researchImg img {
+        margin-right: 1.5rem;
+        width: 40px;
+    }
+    .read-more-less {
+        font-size: 16px;
+    }
+    .about-card { 
+       display: flex;
+       align-items: center !important;
+       margin-bottom: 1rem;
+    }
+    .about-card p {
+        line-height: 25px !important;
+        font-size: 15px !important;
+        text-align: start;
+    }
+    .about-banner img {
+        padding-top: 1rem;
+        max-width: 250px;
+    }
+    .product-pricing-area {
+        padding-top: 2rem;
+    }
+    .pricing-area .Pricing-tab-container {
+        width: 100%;
+        padding-top: 1rem !important;
+    }
+    .Pricing-tab-container h3 {
+        margin-bottom: 1rem;
+        font-size: 25px !important;
+    }
+    .price-card { 
+        padding: 1rem 1rem 0.5rem 1rem !important;
+    }
+    .price-card-content { 
+        margin-bottom: 0rem !important;
+    }
+    .price-card-btn {
+        font-size: 18px !important;
+        line-height: 15px !important;
+        padding: 12px 0px !important; 
+    }
+    .price-card-Img {
+        padding-bottom: 0.5rem !important;
+    }
+    .price-card-Img img {
+        width: 60px;
+    }
+    .css-1a4cg4j-MuiButtonBase-root-MuiTab-root { 
+        font-size: 14px !important;
+        max-width: 130px !important;
+        font-weight: 600 !important;
+        padding: 2px 2px !important;
+    }
+    .css-19kzrtu {
+        padding: 24px 0px !important;
+    }
+    .css-1mrn996 { 
+        font-size: 14px !important;
+        max-width: 130px !important;
+        font-weight: 600 !important;
+        padding: 2px 2px !important;
+    }
+    .blog-img img {
+        max-width: 440px;
+    }
+    .carousel-section {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .carousel-Item .quote {
+        width: 35px !important;
+        padding-bottom: 1rem;
+    }
+    .carousel-section h3 {
+        margin-bottom: -15px !important;
+        font-size: 25px !important;
+    }
+    .carousel-Item h4 {
+        margin-bottom: 0px;
+        font-size: 1.2rem !important;
+    }
+    .testimonial-user {
+        height: 70px; 
+    }
+    .Blogs-area {
+        padding-top: 3rem;
+    }
+    .contact-section {
+        width: 100%;
+    }
+    .contact-section-content {
+        text-align: center;
+    }
+    .contact-section-content h3 {
+        margin-bottom: 10px !important;
+        font-size: 22px !important;
+    }
+    .contact-section .contact-section-container {
+        align-items: center;
+        padding: 1.5rem 1rem;
+    }
+    .contact-section-content .contact-form {
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .subscription-area {
+        margin-bottom: -2rem !important;
+    }
+    .price-form-container {
+        padding-top: 3rem;
+    }
+    .pricing-area {
+        padding-bottom: 0.1rem;
+    }
+    .price-form-content h3 {
+        font-size: 25px !important;
+    }
+    .product-desc-list {
+        padding-left: 0rem;
+    }
+    .subscription-duration h4 {
+        font-size: 18px !important; 
+    }
+    .subscription-btn button {
+        font-size: 16px;
+    }
+    .form-control, .form-select { 
+        font-size: 13px !important;
+    }
+    .form-floating>label {
+        font-size: 13px !important;
+    }
+    .form-label {
+        font-size: 13px !important;
+    }
+    .form-check-label {
+        font-size: 13px !important;
+    }
+    .Product-description-container {
+        padding-bottom: 3rem;
+    }
+    .Contact-area {
+        padding-bottom: 3rem;
+    }
+    .footer-logo-section {
+        margin-bottom: 1rem;
+    }
+    .footer-logo-section .footer-logo {
+        margin-top: -1rem;
+        padding-bottom: 20px !important;
+        width: 150px;
+    }
+    .Footer-area .footer-logo-section p {
+        line-height: 20px !important;
+        margin-bottom: 6px !important;
+    }
+    .footer-link-section p {
+        font-size: 18px !important;
+        margin-bottom: 0.5rem !important;
+    }
+    .modal {
+        margin-top: 4.2rem !important;
+    }
+    .Single-banner-section-card {
+        width: 100%;
+    }
+    .Single-banner-section-card { 
+        padding: 1rem;
+    }
+    .Single-banner-section-card p {
+        font-size: 12px !important;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .support-form-content .support-form { 
+        width: 100%;
+    }
+    .support-form-content h3 {
+        font-size: 30px !important;
+    }
+    .Single-banner-section {
+        padding-bottom: 2rem;
+    }
+    .vertical-timeline-element-title {
+        font-size: 20px !important;
+    }
+    .order-summary {
+        padding: 1rem;
+    }
+    .PayPal-Stripe img {
+        max-width: 142px;
+    }
+    .payment-btn {
+        padding: 5px 5px !important;
+    }
+    .Single-banner-section-card h4 {
+        font-size: 20px !important;
+        margin-bottom: 15px !important;
+    }
+    .Single-banner-section-card h5 {
+        font-size: 18px !important;
+    }
+    .kyc-form-content h5 {
+        font-size: 16px !important;
+        margin-bottom: 15px;
+    }
+    .vertical-timeline {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .subscription-btn-custom button {
+        font-size: 25px !important;
+        width: 60%;
+    }
+    .form-floating>.form-control, .form-floating>.form-control-plaintext, .form-floating>.form-select {
+        height: calc(3.5rem + 0px) !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){ 
+    .hamburger-menu ul { 
+        width: 70%;
+        right: 15% !important;
+    }
+    p {
+        font-size: 16px !important;
+    }
+    .navbar-brand img {
+        width: 160px !important;
+    }
+    .nav-logIn-section {
+        padding-left: 20% !important;
+    }
+    .nav-logIn {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        padding: 2px 15px !important;
+    }
+    .main-banner-area { 
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    .main-banner-section .banner-title h1 {
+        font-size: 50px !important;
+        font-weight: 600 !important;
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+    }
+    .main-banner-section .banner-img img {
+        display: none;
+    }
+    .main-banner-section .banner-btn {
+        padding-top: 1.2rem !important;
+    }
+    .achievement-card-section {
+        justify-content: center;
+    }
+    .achievement-card-container {
+        padding-top: 1rem;
+    }
+    .client-ratings {
+        padding-top: 1rem;
+    }
+    .section-area {
+        padding-top: 50px;
+    }
+    .Single-banner-area {
+        padding-top: 25px !important;
+    }
+    .section-content h2 {
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+        font-weight: 600 !important;
+    }
+    .Single-banner-content h1 { 
+        font-size: 50px !important;
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+        font-weight: 600 !important;
+    }
+    .achievement-section .achievement-card-section {
+        width: 95%;
+    }
+    .achievement-card {
+        padding-top: 2rem;
+        height: 192px;
+    }
+    .achievement-card h4 {
+        font-size: 20px !important;
+    }
+    .achievement-card img {
+        padding-top: 20px;
+    }
+    .section-content2 .learn-more-btn {
+        font-size: 18px;
+        padding: 5px 15px;
+        margin-bottom: 2rem;
+    }
+    .section-image-2 p {
+        margin-bottom: 0px;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .section-image-container-2 .section-image-2 img {
+        max-width: 100%;
+    }
+    .section-content2 {
+        text-align: center;
+    }
+    .section-content2 h2 {
+        text-align: center;
+    }
+    .section-area2 {
+        padding-top: 2rem;
+    }
+    .section-image-2 {
+        padding-bottom: 2rem;
+    }
+    .about-card-section {
+        padding-top: 3rem;
+    }
+    .about-card p {
+        line-height: 25px !important;
+        font-size: 15px !important;
+    }
+    .pricing-area .Pricing-tab-container {
+        width: 100%;
+    }
+    .Blog-card { 
+        margin: 1rem 4rem;
+    }
+    .carousel-section {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .carousel-Item .quote {
+        width: 35px !important;
+        padding-bottom: 1rem;
+    }
+    .carousel-section h3 {
+        margin-bottom: -15px !important;
+    }
+    .carousel-Item h4 {
+        margin-bottom: 0px;
+        font-size: 1.5rem !important;
+    }
+    .testimonial-user {
+        height: 70px; 
+    }
+    .contact-section {
+        width: 95%;
+    }
+    .contact-section-content {
+        text-align: center;
+    }
+    .contact-section .contact-section-container {
+        align-items: center;
+        padding: 2rem 2rem;
+    }
+    .contact-section-content .contact-form {
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .price-form-content h3 {
+        font-size: 25px !important;
+    }
+    .subscription-area {
+        margin-bottom: -2rem !important;
+    }
+    .price-form-container {
+        padding-top: 3rem;
+    }
+    .form-control, .form-select { 
+        font-size: 14px !important;
+    }
+    .form-label {
+        font-size: 14px !important;
+    }
+    .form-check-label {
+        font-size: 14px !important;
+    }
+    .modal {
+        --bs-modal-margin: 5.5rem !important;
+    }
+    .Support-form-area {
+        margin-top: -1rem;
+    }
+    .subscription-btn-custom button {
+        font-size: 25px !important;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+    .hamburger-menu ul { 
+        width: 70%;
+        right: 15% !important;
+    }
+    p {
+        font-size: 16px !important;
+    }
+    .navbar-brand img {
+        width: 160px !important;
+    }
+    .nav-logIn-section {
+        padding-left: 30% !important;
+    }
+    .nav-logIn {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        padding: 2px 15px !important;
+    }
+    .main-banner-area { 
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    .main-banner-section .banner-title h1 {
+        font-size: 50px !important;
+        font-weight: 600 !important;
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+    }
+    .main-banner-section .banner-img img {
+        width: 100%;
+    }
+    .main-banner-section .banner-btn {
+        padding-top: 1.2rem !important;
+    }
+    .Single-banner-area {
+        padding-top: 40px !important;
+    }
+    .section-area {
+        padding-top: 50px;
+    }
+    .section-content h2 {
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+        font-weight: 600 !important;
+    }
+    .Single-banner-content h1 { 
+        font-size: 50px !important;
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+        font-weight: 600 !important;
+    }
+    .achievement-section .achievement-card-section {
+        width: 95%;
+    }
+    .achievement-card {
+        padding-top: 2rem;
+        height: 192px;
+    }
+    .achievement-card h4 {
+        font-size: 20px !important;
+    }
+    .achievement-card img {
+        padding-top: 20px;
+    }
+    .section-content2 .learn-more-btn {
+        font-size: 18px;
+        padding: 5px 15px;
+        margin-bottom: 2rem;
+    }
+    .section-image-2 p {
+        margin-bottom: 0px;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .section-image-container-2 .section-image-2 img {
+        max-width: 100%;
+    }
+    .section-content2 {
+        text-align: center;
+    }
+    .section-content2 h2 {
+        text-align: center;
+    }
+    .section-image-2 {
+        padding-bottom: 2rem;
+    }
+    .about-card-section {
+        padding-top: 3rem;
+    }
+    .about-card p {
+        line-height: 25px !important;
+        font-size: 15px !important;
+    }
+    .pricing-area .Pricing-tab-container {
+        width: 100%;
+    }
+    .carousel-section {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .carousel-Item .quote {
+        width: 35px !important;
+        padding-bottom: 1rem;
+    }
+    .carousel-section h3 {
+        margin-bottom: -15px !important;
+    }
+    .carousel-Item h4 {
+        margin-bottom: 0px;
+        font-size: 1.5rem !important;
+    }
+    .testimonial-user {
+        height: 70px; 
+    }
+    .contact-section-content {
+        text-align: center;
+    }
+    .price-form-content h3 {
+        font-size: 25px !important;
+    }
+    .contact-section .contact-section-container {
+        align-items: center;
+        padding: 2rem 2rem;
+    }
+    .contact-section-content .contact-form {
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .subscription-area {
+        margin-bottom: -2rem !important;
+    }
+    .form-control, .form-select { 
+        font-size: 14px !important;
+    }
+    .form-label {
+        font-size: 14px !important;
+    }
+    .form-check-label {
+        font-size: 14px !important;
+    }
+    .modal {
+        --bs-modal-margin: 5.5rem !important;
+    }
+    .Support-form-area {
+        margin-top: -1rem;
+    }
+    .subscription-btn-custom button {
+        font-size: 25px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 991px){ 
+    .contact-form .get-started-btn {
+        padding-top: 1rem;
+    }
+   #contact {
+        scroll-margin-top: -20px;
+    }
+}
+
+@media only screen and (min-width: 992px){  
+    .hamburger-menu {
+        display: none !important;
+    }
+    .modal {
+        --bs-modal-margin: 5.5rem !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){ 
+    .navbar-brand img {
+        width: 160px !important;
+    }
+    .nav-logIn {
+        font-weight: 600 !important; 
+        padding: 2px 15px !important;
+    }
+    .main-banner-area { 
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    .main-banner-section .banner-title h1 {
+        font-size: 50px !important;
+        font-weight: 600 !important;
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+    }
+    .main-banner-section .banner-img img {
+        width: 75%;
+    }
+    .main-banner-section .banner-btn {
+        padding-top: 1.2rem !important;
+    }
+    .Single-banner-area {
+        padding-top: 30px !important;
+    }
+    .section-area {
+        padding-top: 50px;
+    }
+    .section-content h2 {
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+        font-weight: 600 !important;
+    }
+    .Single-banner-content h1 { 
+        font-size: 50px !important;
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+        font-weight: 600 !important;
+    }
+    .achievement-section .achievement-card-section {
+        width: 95%;
+    }
+    .achievement-card {
+        padding-top: 2rem;
+        height: 225px;
+    }
+    .achievement-card h4 {
+        font-size: 25px !important;
+    }
+    .achievement-card img {
+        padding-top: 50px;
+    }
+    .section-image-2 p {
+        margin-bottom: 0px;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .section-image-container-2 .section-image-2 img {
+        max-width: 230px;
+    }
+    .section-image-2 {
+        padding-bottom: 0.75rem;
+    }
+    .about-card-section {
+        padding-top: 3rem;
+    }
+    .about-card p {
+        line-height: 25px !important;
+        font-size: 15px !important;
+    }
+    .pricing-area .Pricing-tab-container {
+        width: 100%;
+    }
+    .carousel-section {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .carousel-Item .quote {
+        width: 35px !important;
+        padding-bottom: 1rem;
+    }
+    .carousel-section h3 {
+        margin-bottom: -15px !important;
+    }
+    .carousel-Item h4 {
+        margin-bottom: 0px;
+        font-size: 1.5rem !important;
+    }
+    .testimonial-user {
+        height: 70px; 
+    }
+    .contact-section .contact-section-container {
+        align-items: center;
+        padding: 2rem 2rem;
+    }
+    .price-form-content h3 {
+        font-size: 30px !important;
+    }
+    .form-control, .form-select { 
+        font-size: 14px !important;
+    }
+    .form-label {
+        font-size: 14px !important;
+    }
+    .form-check-label {
+        font-size: 14px !important;
+    }
+    .Support-form-area {
+        margin-top: -1rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px){ 
+    .navbar-brand img {
+        width: 172px !important;
+    }
+    .nav-logIn {
+        font-weight: 600 !important; 
+        padding: 4px 20px !important;
+    }
+    .main-banner-area { 
+        padding-top: 50px;
+        padding-bottom: 140px;
+    }
+    .main-banner-section .banner-title h1 {
+        font-size: 60px !important;
+        font-weight: 600 !important;
+        line-height: 80px !important;
+        margin-bottom: 30px !important;
+    }
+    .main-banner-section .banner-img img {
+        width: 70%;
+    }
+    .main-banner-section .banner-btn {
+        padding-top: 2rem !important;
+    }
+    .Single-banner-area {
+        padding-top: 30px !important;
+    }
+    .section-area {
+        padding-top: 50px;
+    }
+    .section-content h2 {
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+        font-weight: 600 !important;
+    }
+    .Single-banner-content h1 { 
+        line-height: 70px !important;
+        margin-bottom: 20px !important;
+        font-weight: 600 !important;
+    }
+    .achievement-card {
+        padding-top: 2rem;
+        height: 225px;
+    }
+    .achievement-card h4 {
+        font-size: 25px !important;
+    }
+    .achievement-card img {
+        padding-top: 45px;
+    }
+    .section-image-container-2 .section-image-2 img {
+        max-width: 260px;
+    }
+    .section-image-2 {
+        padding-bottom: 0.75rem;
+    }
+    .about-card-section {
+        padding-top: 3rem;
+    }
+    .about-card p {
+        line-height: 25px !important;
+        font-size: 15px !important;
+    }
+    .carousel-Item .quote {
+        width: 35px !important;
+        padding-bottom: 1rem;
+    }
+    .carousel-section h3 {
+        margin-bottom: -15px !important;
+    }
+    .carousel-Item h4 {
+        margin-bottom: 0px;
+        font-size: 1.5rem !important;
+    }
+    .testimonial-user {
+        height: 70px; 
+    }
+    .carousel-section {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .contact-section .contact-section-container {
+        align-items: center;
+        padding: 2rem 2rem;
+    }
+    .form-control, .form-select { 
+        font-size: 14px !important;
+    }
+    .form-label {
+        font-size: 14px !important;
+    }
+    .form-check-label {
+        font-size: 14px !important;
+    }
+    .Support-form-area {
+        margin-top: -1rem;
+    }
+}
+
+@media only screen and (min-width: 1400px){ 
+    .main-banner-area { 
+        padding-bottom: 200px;
+    }
+    #home {
+        scroll-margin-top: 140px;
+    }
+}
+
+@media only screen and (min-width: 1921px){
+    .main-banner-area {
+        background: linear-gradient(278.14deg, #114E91 1.21%, #30BE96 100%);
+    }
+}
